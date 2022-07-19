@@ -1,7 +1,50 @@
 /* google font  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Poppins:wght@500;600&display=swap');
 
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+/* top banner style  */
+
+.top-banner{
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    width: 1150px;
+    height: 545px;
+    border-radius: 30px;
+    margin: 50px 100px 0 100px;
+}
+.top-banner-blog{
+    margin-left: 70px;
+}
+.top-banner-blog h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: -60px;
+}
+.top-banner-blog p{
+    color: white;
+    font size: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+.top-banner-blog a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: blue;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.top-banner-image{
+    padding-right: 80px;
+}
+.top-banner-image img{
+    height: 500px;
+    padding-top: 53px;
 }
